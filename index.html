@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+        * {
+            font-family: 'Gowun Dodum', sans-serif;
+        }
+
+        .alpha {
+            background-color: aqua;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://static.hubzum.zumst.com/hubzum/2021/09/14/00/6f4d4cef428c4fb7b51a9db34b922d3c.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .alpha>button {
+            width: 150px;
+            height: 50px;
+            background-color: white;
+            border: 5px;
+            color: rgb(100, 0, 0);
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+
+        .alpha>button:hover {
+            border: 2px solid red
+        }
+    </style>
+</head>
+
+<body>
+    <div class="alpha">
+        <h1>GO TOGETHER</h1>
+        <br>
+        <button>픽하기</button>
+    </div>
+    <div class="mycard">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">영화 URL</label>
+    </div>
+   
+    <button type="button" class="btn btn-dark">기록하기</button>
+    <button type="button" class="btn btn-dark">닫기</button>
+    </div>
+    <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect01">★별점주기★</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>★별점선택★</option>
+          <option value="1">★</option>
+          <option value="2">★★</option>
+          <option value="3">★★★</option>
+          <option value="4">★★★★</option>
+          <option value="5">★★★★★</option>
+        </select>
+        </div>
+
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">코멘트</label>
+        </div>
+      </body>
+
+</html>
